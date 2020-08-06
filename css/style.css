@@ -1,0 +1,446 @@
+html * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+body {
+      background-color: #ffffff;
+      font-family:"Montserrat";
+      margin-top: 0;
+      padding-top: 0;
+}
+
+div#principal{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #A9D9D9;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0vw 0vw 2vw 0vw #d4d3d3;
+}
+
+div#principal img#logo{
+    width: 20vw;
+    margin-left: 1.5vw;
+    padding-bottom: 1vw;
+
+}
+div#principal nav{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 7vw;
+
+}
+div#principal nav a{
+    padding: 2vw 2vw 2vw 2vw;
+    text-decoration: none;
+    color: #000000;
+    
+}
+div#principal nav a#active{
+    color: #56A69E;
+    font-weight: bold;
+}
+div#principal nav a:hover{
+    font-weight: bold;
+    color: #56A69E;
+}
+
+header div#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/imagenes/schnauzerdog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0vw 0vw 2vw 0vw #c4c3c3;
+    
+}
+header div#imagenDos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/imagenes/perromedicamento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    box-shadow: 0vw 0vw 2vw 0vw #c4c3c3;
+    
+}
+header div#imagenTres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/imagenes/perrojugando.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    box-shadow: 0vw 0vw 2vw 0vw #c4c3c3;
+    
+}
+header div#imagenCuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/imagenes/telefonoperro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    box-shadow: 0vw 0vw 2vw 0vw #c4c3c3;
+    
+}
+header h1{
+    color: #fffafa6c;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 15vh;
+    
+    
+}
+
+section{
+    margin-top: 5vh;
+    background: url(../assets/imagenes/4978.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section div#titular h2{
+    text-align: center;
+    color: #45BF9D;
+}
+section div#titular p#uno{
+    margin: 2vh 10vw 4vh 10vw;
+    font-weight: bold;
+    color: #9b9999;
+    padding: 0vh 0vw 2vh 0vw;
+    text-align: center;
+    border-bottom: 1px solid #9b9999;
+}
+section div#titular p:last-child{
+    margin-bottom: 10vh;
+    color: #87b1a5;
+    text-align: center;
+    font-family: "Montserrat-italic";
+}
+section div#historia{
+    margin-left: 12vw;
+    margin-bottom: 3vh;
+    display: flex;
+}
+section div#historia p{
+    padding-left: 1.5vw;
+}
+section div#valor{
+    margin: 8vh 15vw 3vh 12vw;
+}
+section div#historia div#mapa{
+    margin-left: 12vw;
+    margin-right: 14vw;
+}
+div#historia div#mapa iframe{
+    padding-left: 1.5vw;
+
+}
+
+section div#valor button{
+    background: #abc9c9a4;
+    border: none;
+    border-radius: 0.5vw;
+    color: #ffffff;
+    margin: 1vw;
+    text-decoration: none;
+
+}
+div#valor button:hover{
+    background: #cef1f1b6;
+    color: #264e4a;
+    text-decoration: none;
+
+}
+div#valor div.cuerpo{
+    padding-left: 3vw;
+
+}
+
+section  p#ultimo{
+  margin: 10vh 0vw 0vh 0vw;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-family: "Montserrat-italic";
+  color: #87b1a5;
+
+}
+
+section h3{
+    color: #264e4a ;
+    font-family: "Montserrat-ExtraBold";
+    font-size: 2vw;
+    
+}
+footer{
+    background-color: #264e4a;
+}
+footer div#medio{
+    padding-right: 40vw;
+}
+
+footer img{
+    width: 1vw;
+    margin-right: 0.5vw;
+    padding-bottom: 0.3vh;
+}
+footer p{
+    color: #ffffff;
+    padding-top: 2.3vh;
+    font-size: 1vw;
+}
+footer div#redes{
+    padding-left: 3vw;
+
+}
+footer div#redes img:hover{
+   width:1.3vw;
+   cursor: pointer;
+}
+
+form#info h2{
+    text-align: center;
+    font-family: "Montserrat-SemiBold";
+    color: #56A69E;
+    margin-top: 5vh;
+}
+form#info p#titular{
+    text-align: center;
+    font-family: "Montserrat-Lightitalic";
+    font-size: 1.8vw;
+    color: #929292;
+    margin-bottom: 5vh;
+}
+hr{
+    margin: 0vh 45vw;
+}
+
+div#seccionuno{
+    padding: 0vw 15vw 0vw 5vw;
+    border-left:4px solid #87b1a59a;
+    margin-left: 10vw;
+
+}
+
+div#seccionuno h3{
+    font-size: 1.5vw;
+    margin-top: 10vh;
+}
+span{
+    font-size: 1vw;
+    font-family: "Montserrat-Regular";
+    color: #8a8888;
+}
+input{
+    border: none;
+    background: none;
+}
+
+input:invalid {
+    border-bottom: 1px solid red;
+    background-color: #d0e7e715;
+}
+
+input:valid {
+    border-bottom: 1px solid  #56A69E;
+    background-color: #d0e7e715; 
+  }
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#name input{ 
+    flex:1;
+    margin: 0vh 1vw;
+}
+#name label{
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+#telefono{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#telefono input{ 
+    flex:1;
+    margin: 0vh 1vw;
+}
+#telefono label{
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+div#datos{
+    display: flex;
+    align-items: center;
+}
+
+div#datos input{
+    flex:1;
+    margin: 0vh 1vw;
+}
+div#datos label{
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+div#gender{
+    display: flex;
+    align-items: center;
+}
+div#gender p{
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+div#gender label{
+ padding-bottom: 1vh;
+ padding-left: 2vw;
+}
+
+div#textos textarea{
+    margin-left: 2vw;
+    border: none;
+    background-color: #ffffff91;
+    border: 2px solid #87b1a573 ;
+    border-radius: 1vw;
+    padding-right: 16vw;
+}
+button#send{
+    padding: 2vh 3vw;
+    border-radius: 1.5vw;
+    margin-left: 45%;
+    background-color: #e1f8f1c0;
+    border: none;
+}
+button#send:hover{
+    background-color: #87b1a573;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div#contactenos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+div#contactenos h4{
+    color: #8a8888;
+    margin-top: 10vh;
+    font-size: 1.7vw;
+   
+}
+div#mailynum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b999965;
+    padding: 0.5vw;
+    margin-bottom: 4vw;
+    border-radius: 2vw;
+}
+
+div#mailynum img{
+   width: 3.5vw;
+   padding: 1vw;
+   
+}
+div#mailynum a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 1.5vh 1.5vw;
+    color: #ffffff;
+    font-size: 0.8vw;
+}
+div#mailynum a:first-child{
+    padding-left: 3vw;
+}
+
+div#mailynum a:last-child{
+    padding-bottom: 1vh;
+    padding-right: 3vw;
+    
+}
+div#mailynum img:hover{
+    width: 3.6vw;
+}
+div#mailynum a:hover{
+    font-size: 0.9vw;
+}
+section div#titulojuguetes{
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 8vh;
+}
+section div#titulojuguetes h4{
+    font-family: "Montserrat-LightItalic";
+    margin-top: 3vh;
+    color: #45BF9D;
+    font-size: 1.6vw;
+}
+
+div.ultimo img{
+    width: 10vw;
+    margin-left: 9vw;
+}
+div.ultimo img:hover{
+    width: 11vw;
+}
+div#juegos{
+    height: 340vh;
+    margin-left: 7vw;
+}
+
+div.ultimo{
+    display:inline-block;
+    flex: wrap;
+    width: 33vw;
+    height: 75vh;
+    border: 1px solid #45BF9D;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    margin: 8vh 4vw 0vh 6vw;
+    padding: 2vw;
+    box-shadow: 0vw 0vw 2vw 0vw #b4b4b49c;
+    overflow: hidden;
+}
+div.ultimo p:last-child{
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+div.ultimo p#nombres{
+    text-align: center;
+    font-family: "Montserrat-Bold" ;
+}
+span#stocks{
+    text-align: center;
+    font-family: "Montserrat-MediumItalic";
+    color: #0da77b;
+    font-size: 1.5vw;
+   
+}
+span#precios{
+    text-align: center;
+    font-family: "Montserrat-Medium";
+    color: #000000;
+    font-size: 1.5vw;
+}
+
+

@@ -123,7 +123,8 @@ section div#titular p:last-child{
     margin-bottom: 10vh;
     color: #87b1a5;
     text-align: center;
-    font-family: "Montserrat-italic";
+    font-style: italic;
+    font-weight: lighter;
 }
 section div#historia{
     margin-left: 12vw;
@@ -169,14 +170,15 @@ section  p#ultimo{
   margin: 10vh 0vw 0vh 0vw;
   padding-bottom: 5vh;
   text-align: center;
-  font-family: "Montserrat-italic";
+  font-style: italic;
+  font-weight: lighter;
   color: #87b1a5;
 
 }
 
 section h3{
     color: #264e4a ;
-    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
     font-size: 2vw;
     
 }
@@ -208,13 +210,13 @@ footer div#redes img:hover{
 
 form#info h2{
     text-align: center;
-    font-family: "Montserrat-SemiBold";
     color: #56A69E;
     margin-top: 5vh;
 }
 form#info p#titular{
     text-align: center;
-    font-family: "Montserrat-Lightitalic";
+    font-style: italic;
+    font-weight: lighter;
     font-size: 1.8vw;
     color: #929292;
     margin-bottom: 5vh;
@@ -236,7 +238,7 @@ div#seccionuno h3{
 }
 span{
     font-size: 1vw;
-    font-family: "Montserrat-Regular";
+    font-weight: normal;
     color: #8a8888;
 }
 input{
@@ -389,7 +391,8 @@ section div#titulojuguetes{
     margin-top: 8vh;
 }
 section div#titulojuguetes h4{
-    font-family: "Montserrat-LightItalic";
+    font-style: italic;
+    font-weight: lighter;
     margin-top: 3vh;
     color: #45BF9D;
     font-size: 1.6vw;
@@ -427,18 +430,19 @@ div.ultimo p:last-child{
 
 div.ultimo p#nombres{
     text-align: center;
-    font-family: "Montserrat-Bold" ;
+    font-weight: bold;
 }
 span#stocks{
     text-align: center;
-    font-family: "Montserrat-MediumItalic";
+    font-weight: normal;
+    font-style: italic;
     color: #0da77b;
     font-size: 1.5vw;
    
 }
 span#precios{
     text-align: center;
-    font-family: "Montserrat-Medium";
+    font-weight: normal;
     color: #000000;
     font-size: 1.5vw;
 }

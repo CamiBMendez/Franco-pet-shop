@@ -37,7 +37,7 @@ function miPrograma(jugueteFarmacia){
 
         alerta.addEventListener("click",e => {
             e.preventDefault()
-            if(nombres.value.length > 2 && apellidos.value.length > 2 && tels.value.length > 2 && mails.value.length > 2 && nombresP.value.length > 2 && (mascotaP.checked ==1 || mascotaG.checked == 1)) {
+            if(nombres.value.length > 2 && apellidos.value.length > 2 && tels.value.length > 2 && mails.value.length > 2 && nombresP.value.length > 2 ) {
               swal(`Buen Trabajo ${nombres.value}!`, `Gracias por completar el formulario, Pronto recibiras un mail a ${mails.value}`, "success")
             }else{
               swal("Algunos campos requeridos estan vacios!", "por favor complete el formulario")

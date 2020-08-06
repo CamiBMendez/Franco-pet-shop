@@ -33,7 +33,9 @@
               <div id="juegos">
               <div v-for="medicamento in farmacia" class="ultimo">
                       <img v-bind:src="medicamento.imagen"/>
-                      <p id="nombres">{{medicamento.nombre}} <br> <span v-if="medicamento.stock <= 5"id="stocks">Ultimas Unidades</span><br><span id="precios">$ {{medicamento.precio}}</span></p>
+                      <p id="nombres">{{medicamento.nombre}} </p>
+                      <p v-if="medicamento.stock <= 5"id="stocks">Ultimas Unidades</p>
+                      <p id="precios">$ {{medicamento.precio}}</p>
                       <p>{{medicamento.descripcion}}</p>
               </div>
               </div>

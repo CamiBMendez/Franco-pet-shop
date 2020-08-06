@@ -432,7 +432,7 @@ div.ultimo p#nombres{
     text-align: center;
     font-weight: bold;
 }
-p#stocks{
+span#stocks{
     text-align: center;
     font-weight: normal;
     font-style: italic;
@@ -440,7 +440,7 @@ p#stocks{
     font-size: 1.5vw;
    
 }
-p#precios{
+span#precios{
     text-align: center;
     font-weight: normal;
     color: #000000;

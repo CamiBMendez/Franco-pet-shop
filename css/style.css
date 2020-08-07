@@ -146,23 +146,27 @@ div#historia div#mapa iframe{
 
 }
 
+
 section div#valor button{
     background: #abc9c9a4;
-    border: none;
     border-radius: 0.5vw;
     color: #ffffff;
-    margin: 1vw;
+    border: none;
+    margin: 0.5vw;
+    padding: 1.5vh 70vw 1.5vh 2vw;
     text-decoration: none;
-
+}
+section div#valor button#resp{
+    padding-right: 65.5vw;
 }
 div#valor button:hover{
     background: #cef1f1b6;
     color: #264e4a;
-    text-decoration: none;
 
 }
 div#valor div.cuerpo{
     padding-left: 3vw;
+    display: none;
 
 }
 
@@ -184,19 +188,25 @@ section h3{
 }
 footer{
     background-color: #264e4a;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 footer div#medio{
     padding-right: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer img{
     width: 1vw;
     margin-right: 0.5vw;
-    padding-bottom: 0.3vh;
+    
 }
 footer p{
     color: #ffffff;
-    padding-top: 2.3vh;
     font-size: 1vw;
 }
 footer div#redes{

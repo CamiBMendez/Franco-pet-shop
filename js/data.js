@@ -44,4 +44,14 @@ function miPrograma(jugueteFarmacia){
             }
         })
     }
+    if (document.querySelector("#imagen")){
+        const boton = document.querySelector('button')
+        const texto  = document.querySelector('.cuerpo')
+
+        
+        boton.addEventListener("click",e => { 
+            e.preventDefault()
+            texto = texto.style.display == "none" ? texto.style.display = "block" : texto.style.display = "none"
+        })
+    }    
 }

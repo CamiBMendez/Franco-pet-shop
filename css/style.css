@@ -317,7 +317,7 @@ div#textos textarea{
     background-color: #ffffff91;
     border: 2px solid #87b1a573 ;
     border-radius: 1vw;
-    padding-right: 47vw;
+    padding-right: 16vw;
 }
 button#send{
     padding: 2vh 3vw;
@@ -400,51 +400,52 @@ section div#titulojuguetes h4{
 
 div.ultimo img{
     width: 10vw;
-    margin-left: 9vw;
+    margin-left: 4.4vw;
 }
 div.ultimo img:hover{
     width: 11vw;
 }
 div#juegos{
-    height: 340vh;
+    height: 250vh;
     margin-left: 7vw;
 }
 
 div.ultimo{
     display:inline-block;
     flex: wrap;
-    width: 33vw;
-    height: 75vh;
+    width: 23vw;
+    height: 72vh;
     border: 1px solid #45BF9D;
     background-color: #ffffff;
     border-radius: 2vw;
-    margin: 8vh 4vw 0vh 6vw;
+    margin: 8vh 2vw 0vh 2vw;
     padding: 2vw;
     box-shadow: 0vw 0vw 2vw 0vw #b4b4b49c;
     overflow: hidden;
 }
 div.ultimo p:last-child{
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: center;
 }
 
 div.ultimo p#nombres{
     text-align: center;
     font-weight: bold;
+    font-size: 1vw;
 }
 span#stocks{
     text-align: center;
     font-weight: normal;
     font-style: italic;
     color: #0da77b;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
    
 }
 span#precios{
     text-align: center;
     font-weight: normal;
     color: #000000;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 

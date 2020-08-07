@@ -206,7 +206,7 @@ footer img{
 footer p{
     color: #ffffff;
     padding-top: 2.5vh;
-   
+   font-size: 1vw;
 }
 footer div#redes{
     display: flex;

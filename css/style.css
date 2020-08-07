@@ -317,7 +317,7 @@ div#textos textarea{
     background-color: #ffffff91;
     border: 2px solid #87b1a573 ;
     border-radius: 1vw;
-    
+    padding-right: 47vw;
 }
 button#send{
     padding: 2vh 3vw;

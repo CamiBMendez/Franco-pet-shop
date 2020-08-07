@@ -153,21 +153,16 @@ section div#valor button{
     color: #ffffff;
     border: none;
     margin: 0.5vw;
-    padding: 1.5vh 70vw 1.5vh 2vw;
+    margin-left: 1vw;
+    padding: 0.5vw;
     text-decoration: none;
-}
-section div#valor button#resp{
-    padding-right: 65.5vw;
 }
 div#valor button:hover{
     background: #cef1f1b6;
     color: #264e4a;
-
 }
 div#valor div.cuerpo{
     padding-left: 3vw;
-    display: none;
-
 }
 
 section  p#ultimo{
@@ -210,11 +205,13 @@ footer p{
     font-size: 1vw;
 }
 footer div#redes{
-    padding-left: 3vw;
+    padding: 0vh 2vw;
+    display: flex;
+    align-items:center;
 
 }
 footer div#redes img:hover{
-   width:1.3vw;
+   width:1.2vw;
    cursor: pointer;
 }
 

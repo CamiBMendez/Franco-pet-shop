@@ -182,36 +182,41 @@ section h3{
     
 }
 footer{
-    background-color: #264e4a;
-    padding: 1vw;
+    background-color: #172e2c;
+}
+div#footesTodo{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 footer div#medio{
-    padding-right: 40vw;
+    margin-right: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 footer img{
-    width: 1vw;
-    margin-right: 0.5vw;
+ width: 1vw;
+ margin-right: 0.5vw;
+
     
 }
 footer p{
     color: #ffffff;
-    font-size: 1vw;
+    padding-top: 2.5vh;
+   
 }
 footer div#redes{
-    padding: 0vh 2vw;
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
 
 }
 footer div#redes img:hover{
-   width:1.2vw;
+   width:1.3vw;
    cursor: pointer;
 }
 

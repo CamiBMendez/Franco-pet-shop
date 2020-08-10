@@ -414,8 +414,8 @@ div.ultimo img{
     width: 10vw;
     margin-left: 4.4vw;
 }
-div.ultimo img:hover{
-    width: 11vw;
+div.ultimo:hover{
+    box-shadow: 0vw 0vw 2vw 0vw #88888877;
 }
 div#juegos{
     height: 250vh;
@@ -432,7 +432,7 @@ div.ultimo{
     border-radius: 2vw;
     margin: 8vh 2vw 0vh 2vw;
     padding: 2vw;
-    box-shadow: 0vw 0vw 2vw 0vw #b4b4b49c;
+    
     overflow: hidden;
 }
 div.ultimo p:last-child{
